@@ -199,7 +199,7 @@ app.listen(app.get('port'), function () {
 //Function to help verify if the user is authenticated in Passwport.
 function ensureAuthenticated(req, res, next) {
   if (req.isAuthenticated()) {
-    res.redirect('/home');
+    return next();
   }
   res.redirect('/');
 }
