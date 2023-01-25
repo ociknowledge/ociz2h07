@@ -25,6 +25,8 @@ En el archivo **auth.js**, se debe modificar las siguientes llaves:
 - redirectURL
 - mainURL
 
+https://github.com/ociknowledge/ociz2h07/blob/dbf04361e2f7a551d1aa83fa7b97a929848d1f4e/auth.js#L3-L12
+
 Luego de la edición del archivo **auth.js**, procedemos con los comandos finales.
 
 ```sh
