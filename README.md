@@ -35,4 +35,5 @@ unzip z2h.zip -d z2h
 cd z2h
 npm i
 mv passport-idcs node_modules/
+nohup node app.js >> app.log 2>&1 &
 ```
